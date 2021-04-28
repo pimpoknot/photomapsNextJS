@@ -1,6 +1,6 @@
 { 
-  "name": "test NextJS configurações",
-  "short_name": "NextJS",
+  "name": "My Photo Trips",
+  "short_name": "Fotos dos locais no qual visitei",
   "icons": [
     {
       "src": "/img/icon-192.png",
@@ -14,7 +14,7 @@
     }
   ],
   "background_color": "06092b",
-  "description": "Boilerplate utilizando Typescript, React e NextJS",
+  "description": "Simples site para mostrar as fotos que tirei e os locais no qual visitei",
   "display": "fullscreen",
   "start_url": "/",
   "theme_color": "#06092B"

@@ -7,13 +7,20 @@ function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>NextJS - Boilerplate</title>
+        <title>My trips</title>
         <link rel="shortcut icon" href="#" />
         <link rel="apple-touch-icon" href="#" />
         <link rel="manifest" href="/manifest.json" />
+        <link 
+          rel="stylesheet" 
+          href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+          integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+          crossorigin="" 
+        />
         <meta name="theme-color" content="#06092B" />
         <meta name="description" content="Simples projeto em NextJS" />
       </Head>
+      <GlobalStyles />
       <Component {...pageProps} />
     </>
   )
