@@ -1,0 +1,21 @@
+{ 
+  "name": "test NextJS configurações",
+  "short_name": "NextJS",
+  "icons": [
+    {
+      "src": "/img/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/icon-512.png",
+      "type":"image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "background_color": "06092b",
+  "description": "Boilerplate utilizando Typescript, React e NextJS",
+  "display": "fullscreen",
+  "start_url": "/",
+  "theme_color": "#06092B"
+}
