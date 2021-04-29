@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react' 
-import { stringify } from 'node:querystring'
+
 import Map from '.'
 
 describe('<Map />', () => {
